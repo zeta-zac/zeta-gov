@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -51,19 +52,44 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
     "doNotList": false,
-    "givenName": "Zacros",
-    "motivations": "",
-    "objectives": "Preserve the Cardano Ethos while pushing the limits to grow into a Network State",
-    "paymentAddress": "addr1q9zq5u5y7gpwf0q9shjxtxnn4vrqjldnu2f4vkneck7f6l9m8t8x37mpc8nr5wx3ju4czsnusn7qc688mjjagx98zzqqz9kg0y",
-    "qualifications": "",
+    "givenName": {
+      "@value": "Zacros"
+    },
+    "motivations": {
+      "@value": "Cardano needs; the call is answered."
+    },
+    "objectives": {
+      "@value": "To preserve the core values of Cardano while driving innovation forward, ensuring that the blockchain ecosystem remains secure, decentralized, and open for the future, ultimately becoming a real and tangible Network State"
+    },
+    "paymentAddress": {
+      "@value": "addr1q9zq5u5y7gpwf0q9shjxtxnn4vrqjldnu2f4vkneck7f6l9m8t8x37mpc8nr5wx3ju4czsnusn7qc688mjjagx98zzqqz9kg0y"
+    },
+    "qualifications": {
+      "@value": ""
+    },
     "references": [
       {
         "@type": "Link",
-        "label": "X Profile",
-        "uri": "https://x.com/howlingzac"
+        "label": {
+          "@value": "X Profile"
+        },
+        "uri": {
+          "@value": "https://x.com/howlingzac"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Manifesto"
+        },
+        "uri": {
+          "@value": "https://zeta-zac.github.io/zeta-manifest/"
+        }
       }
     ]
   }
